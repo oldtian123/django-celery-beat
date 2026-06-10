@@ -30,3 +30,5 @@ RUN python -m pip install --upgrade pip setuptools wheel \
     && python -m pip install -r requirements/docs.txt \
     && python -m pip install -e . \
     && mkdir -p /app/result
+
+EXPOSE 8000
